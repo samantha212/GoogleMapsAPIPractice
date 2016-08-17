@@ -18,3 +18,18 @@ function initMap() {
         ]
     });
 }
+
+function initMapTwo() {
+    map = new google.maps.Map(document.getElementById('mapTwo'), {
+        center: {lat: 51.507, lng: -0.1278},
+        zoom: 10,
+        styles: [
+            {
+                featureType: 'all',
+                stylers: [
+                    {saturation: -45}
+                ]
+            }
+        ]
+    });
+}
